@@ -10,6 +10,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {DemoMaterialModule} from './material-module';
 
 import {CardFancyExample} from './app/card-fancy-example';
+import {JoeCardAComponent} from './app/joe-card-a/joe-card-a';
 
 @NgModule({
   imports: [
@@ -20,6 +21,7 @@ import {CardFancyExample} from './app/card-fancy-example';
     DemoMaterialModule,
     MatNativeDateModule,
     ReactiveFormsModule,
+    JoeCardAComponent,
   ],
   entryComponents: [CardFancyExample],
   declarations: [CardFancyExample],
